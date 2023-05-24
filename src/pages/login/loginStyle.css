@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url() no-repeat;
+    background-size: cover;
+    z-index: -1;
+    filter: blur(8px);
+    filter: brightness(35%);
+}
+
+.from-box{
+    z-index: 0;
+    background: #ffff;
+}
